@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.leftimg {
+  float: left;
+  margin-right: 1rem;
+}
+
+.rightimg {
+  float: right;
+  margin-left: 1rem;
+}
+
+#columns p {
+  float: left;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+#columns p:first-child {
+  width: calc(70% - 8rem);
+  font-size: 2rem;
+}
+#columns p:last-child {
+  width: 15%;
+  text-align: right;
+  font-weight: 100;
+}
