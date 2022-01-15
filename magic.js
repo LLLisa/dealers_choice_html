@@ -4,14 +4,14 @@
 let spans = document.querySelectorAll('span');
 
 for (let i = 0; i < spans.length; i++) {
-  spans[i].addEventListener('mouseover', function () {
-    spans[i].innerText = ozymandias[i];
-    spans[i].style.color = 'darkblue';
-    spans[i].style.fontSize = '1.15rem';
+  const element = spans[i];
+  element.addEventListener('mouseover', function () {
+    element.innerText = ozymandias[i];
+    element.className = 'changed';
   });
 }
 
-let ozymandias = [
+const ozymandias = [
   'I',
   'met',
   'a',

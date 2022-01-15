@@ -26,11 +26,16 @@ h1 {
   width: calc(70% - 8rem);
   font-size: 2rem;
 }
+
 #columns p:last-child {
   width: 15%;
   text-align: right;
   font-weight: 100;
 }
 
-span {
+.changed {
+  font-size: 1.15rem;
+  font-family: monospace;
+  text-shadow: 1px 0 0;
+  color: blueviolet;
 }
