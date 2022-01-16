@@ -123,4 +123,7 @@ const ozymandias = [
   'stretch',
   'far',
   'away."',
+  '//Ozymandias by Percy Bysshe Shelley',
 ];
+
+console.log(spans.length, ozymandias.length);
